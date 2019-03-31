@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suítes de teste do TestNG" duration-ms="54653" started-at="2019-03-31T21:00:01Z" finished-at="2019-03-31T21:00:56Z">
+    <groups>
+    </groups>
+    <test name="Página de Login do Mantis" duration-ms="15650" started-at="2019-03-31T21:00:01Z" finished-at="2019-03-31T21:00:17Z">
+      <class name="br.com.base2.automacaoTesteSelenium.tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.LoginTest@754ba872]" name="setup" is-config="true" duration-ms="5229" started-at="2019-03-31T18:00:01Z" finished-at="2019-03-31T18:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verificaUsuarioESenhaEmBranco()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.LoginTest@754ba872]" name="verificaUsuarioESenhaEmBranco" duration-ms="3708" started-at="2019-03-31T18:00:06Z" finished-at="2019-03-31T18:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaUsuarioESenhaEmBranco -->
+        <test-method status="PASS" signature="verificarUsuarioInvalido()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.LoginTest@754ba872]" name="verificarUsuarioInvalido" duration-ms="1384" started-at="2019-03-31T18:00:10Z" finished-at="2019-03-31T18:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarUsuarioInvalido -->
+        <test-method status="PASS" signature="verificarSenhaInvalida()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.LoginTest@754ba872]" name="verificarSenhaInvalida" duration-ms="1344" started-at="2019-03-31T18:00:11Z" finished-at="2019-03-31T18:00:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarSenhaInvalida -->
+        <test-method status="PASS" signature="efetuarLoginComSucesso()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.LoginTest@754ba872]" name="efetuarLoginComSucesso" duration-ms="1991" started-at="2019-03-31T18:00:13Z" finished-at="2019-03-31T18:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- efetuarLoginComSucesso -->
+        <test-method status="PASS" signature="efetuarLogout()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.LoginTest@754ba872]" name="efetuarLogout" duration-ms="788" started-at="2019-03-31T18:00:15Z" finished-at="2019-03-31T18:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- efetuarLogout -->
+        <test-method status="PASS" signature="afterTests()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.LoginTest@754ba872]" name="afterTests" is-config="true" duration-ms="1166" started-at="2019-03-31T18:00:16Z" finished-at="2019-03-31T18:00:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+      </class> <!-- br.com.base2.automacaoTesteSelenium.tests.LoginTest -->
+    </test> <!-- Página de Login do Mantis -->
+    <test name="Página de cadastro de Bugs do Mantis" duration-ms="24297" started-at="2019-03-31T21:00:17Z" finished-at="2019-03-31T21:00:41Z">
+      <class name="br.com.base2.automacaoTesteSelenium.tests.ReportissueTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.ReportissueTest@1e397ed7]" name="setup" is-config="true" duration-ms="4316" started-at="2019-03-31T18:00:17Z" finished-at="2019-03-31T18:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selecionarProjeto()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.ReportissueTest@1e397ed7]" name="selecionarProjeto" duration-ms="6469" started-at="2019-03-31T18:00:21Z" finished-at="2019-03-31T18:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selecionarProjeto -->
+        <test-method status="PASS" signature="relatarBugCamposVazios()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.ReportissueTest@1e397ed7]" name="relatarBugCamposVazios" duration-ms="1105" started-at="2019-03-31T18:00:28Z" finished-at="2019-03-31T18:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- relatarBugCamposVazios -->
+        <test-method status="PASS" signature="verificarCampoSumarioNaoPreenchido()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.ReportissueTest@1e397ed7]" name="verificarCampoSumarioNaoPreenchido" duration-ms="1336" started-at="2019-03-31T18:00:29Z" finished-at="2019-03-31T18:00:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarCampoSumarioNaoPreenchido -->
+        <test-method status="PASS" signature="verificarCampoDescricaoNaoPreenchido()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.ReportissueTest@1e397ed7]" name="verificarCampoDescricaoNaoPreenchido" duration-ms="1378" started-at="2019-03-31T18:00:30Z" finished-at="2019-03-31T18:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarCampoDescricaoNaoPreenchido -->
+        <test-method status="PASS" signature="enviarRelatorioDeBug()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.ReportissueTest@1e397ed7]" name="enviarRelatorioDeBug" duration-ms="4806" started-at="2019-03-31T18:00:31Z" finished-at="2019-03-31T18:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enviarRelatorioDeBug -->
+        <test-method status="PASS" signature="uploadArquivo()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.ReportissueTest@1e397ed7]" name="uploadArquivo" duration-ms="3622" started-at="2019-03-31T18:00:36Z" finished-at="2019-03-31T18:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadArquivo -->
+        <test-method status="PASS" signature="afterTests()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.ReportissueTest@1e397ed7]" name="afterTests" is-config="true" duration-ms="1251" started-at="2019-03-31T18:00:40Z" finished-at="2019-03-31T18:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+      </class> <!-- br.com.base2.automacaoTesteSelenium.tests.ReportissueTest -->
+    </test> <!-- Página de cadastro de Bugs do Mantis -->
+    <test name="Página de edição de Bugs do Mantis" duration-ms="14672" started-at="2019-03-31T21:00:41Z" finished-at="2019-03-31T21:00:56Z">
+      <class name="br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest@5cb9f472]" name="setup" is-config="true" duration-ms="4369" started-at="2019-03-31T18:00:41Z" finished-at="2019-03-31T18:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="editarReportIssue()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest@5cb9f472]" name="editarReportIssue" duration-ms="9154" started-at="2019-03-31T18:00:45Z" finished-at="2019-03-31T18:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editarReportIssue -->
+        <test-method status="PASS" signature="afterTests()[pri:0, instance:br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest@5cb9f472]" name="afterTests" is-config="true" duration-ms="1145" started-at="2019-03-31T18:00:55Z" finished-at="2019-03-31T18:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+      </class> <!-- br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest -->
+    </test> <!-- Página de edição de Bugs do Mantis -->
+  </suite> <!-- Suítes de teste do TestNG -->
+</testng-results>

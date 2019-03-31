@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suítes de teste do TestNG]">
+  <test name="Página de edição de Bugs do Mantis(failed)">
+    <classes>
+      <class name="br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest">
+        <methods>
+          <include name="editarReportIssue"/>
+          <include name="afterTests"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest -->
+    </classes>
+  </test> <!-- Página de edição de Bugs do Mantis(failed) -->
+</suite> <!-- Failed suite [Suítes de teste do TestNG] -->

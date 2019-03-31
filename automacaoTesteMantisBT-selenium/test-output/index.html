@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG">
+              <span class="suite-name border-passed">Suítes de teste do TestNG</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suítes_de_teste_do_TestNG">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suítes_de_teste_do_TestNG">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suítes_de_teste_do_TestNG">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suítes_de_teste_do_TestNG">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suítes_de_teste_do_TestNG">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suítes_de_teste_do_TestNG">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suítes_de_teste_do_TestNG">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suítes_de_teste_do_TestNG" class="hide-methods passed suite-Suítes_de_teste_do_TestNG"> (hide)</a> <!-- hide-methods passed suite-Suítes_de_teste_do_TestNG -->
+                      <a href="#" panel-name="suite-Suítes_de_teste_do_TestNG" class="show-methods passed suite-Suítes_de_teste_do_TestNG"> (show)</a> <!-- show-methods passed suite-Suítes_de_teste_do_TestNG -->
+                    </span>
+                    <div class="method-list-content passed suite-Suítes_de_teste_do_TestNG">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest" hash-for-method="editarReportIssue">editarReportIssue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.LoginTest" hash-for-method="efetuarLoginComSucesso">efetuarLoginComSucesso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.LoginTest" hash-for-method="efetuarLogout">efetuarLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.ReportissueTest" hash-for-method="enviarRelatorioDeBug">enviarRelatorioDeBug</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.ReportissueTest" hash-for-method="relatarBugCamposVazios">relatarBugCamposVazios</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.ReportissueTest" hash-for-method="selecionarProjeto">selecionarProjeto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.ReportissueTest" hash-for-method="uploadArquivo">uploadArquivo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.LoginTest" hash-for-method="verificaUsuarioESenhaEmBranco">verificaUsuarioESenhaEmBranco</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.ReportissueTest" hash-for-method="verificarCampoDescricaoNaoPreenchido">verificarCampoDescricaoNaoPreenchido</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.ReportissueTest" hash-for-method="verificarCampoSumarioNaoPreenchido">verificarCampoSumarioNaoPreenchido</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.LoginTest" hash-for-method="verificarSenhaInvalida">verificarSenhaInvalida</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suítes_de_teste_do_TestNG" title="br.com.base2.automacaoTesteSelenium.tests.LoginTest" hash-for-method="verificarUsuarioInvalido">verificarUsuarioInvalido</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suítes_de_teste_do_TestNG -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suítes_de_teste_do_TestNG" class="panel Suítes_de_teste_do_TestNG">
+          <div class="suite-Suítes_de_teste_do_TestNG-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">br.com.base2.automacaoTesteSelenium.tests.ReportissueTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enviarRelatorioDeBug">
+                  </a> <!-- enviarRelatorioDeBug -->
+                  <span class="method-name">enviarRelatorioDeBug</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="relatarBugCamposVazios">
+                  </a> <!-- relatarBugCamposVazios -->
+                  <span class="method-name">relatarBugCamposVazios</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selecionarProjeto">
+                  </a> <!-- selecionarProjeto -->
+                  <span class="method-name">selecionarProjeto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadArquivo">
+                  </a> <!-- uploadArquivo -->
+                  <span class="method-name">uploadArquivo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificarCampoDescricaoNaoPreenchido">
+                  </a> <!-- verificarCampoDescricaoNaoPreenchido -->
+                  <span class="method-name">verificarCampoDescricaoNaoPreenchido</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificarCampoSumarioNaoPreenchido">
+                  </a> <!-- verificarCampoSumarioNaoPreenchido -->
+                  <span class="method-name">verificarCampoSumarioNaoPreenchido</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suítes_de_teste_do_TestNG-class-passed -->
+          <div class="suite-Suítes_de_teste_do_TestNG-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editarReportIssue">
+                  </a> <!-- editarReportIssue -->
+                  <span class="method-name">editarReportIssue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suítes_de_teste_do_TestNG-class-passed -->
+          <div class="suite-Suítes_de_teste_do_TestNG-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">br.com.base2.automacaoTesteSelenium.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="efetuarLoginComSucesso">
+                  </a> <!-- efetuarLoginComSucesso -->
+                  <span class="method-name">efetuarLoginComSucesso</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="efetuarLogout">
+                  </a> <!-- efetuarLogout -->
+                  <span class="method-name">efetuarLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaUsuarioESenhaEmBranco">
+                  </a> <!-- verificaUsuarioESenhaEmBranco -->
+                  <span class="method-name">verificaUsuarioESenhaEmBranco</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificarSenhaInvalida">
+                  </a> <!-- verificarSenhaInvalida -->
+                  <span class="method-name">verificarSenhaInvalida</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificarUsuarioInvalido">
+                  </a> <!-- verificarUsuarioInvalido -->
+                  <span class="method-name">verificarUsuarioInvalido</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suítes_de_teste_do_TestNG-class-passed -->
+        </div> <!-- panel Suítes_de_teste_do_TestNG -->
+        <div panel-name="test-xml-Suítes_de_teste_do_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/amanda/eclipse-workspace/projeto-automacao-de-testes-MantisBT/automacaoTesteMantisBT-selenium/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suítes de teste do TestNG&quot;&gt;
+  &lt;test name=&quot;Página de Login do Mantis&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;br.com.base2.automacaoTesteSelenium.tests.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verificaUsuarioESenhaEmBranco&quot;/&gt;
+          &lt;include name=&quot;verificarUsuarioInvalido&quot;/&gt;
+          &lt;include name=&quot;verificarSenhaInvalida&quot;/&gt;
+          &lt;include name=&quot;efetuarLoginComSucesso&quot;/&gt;
+          &lt;include name=&quot;efetuarLogout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- br.com.base2.automacaoTesteSelenium.tests.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Página de Login do Mantis --&gt;
+  &lt;test name=&quot;Página de cadastro de Bugs do Mantis&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;br.com.base2.automacaoTesteSelenium.tests.ReportissueTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;selecionarProjeto&quot;/&gt;
+          &lt;include name=&quot;relatarBugCamposVazios&quot;/&gt;
+          &lt;include name=&quot;verificarCampoSumarioNaoPreenchido&quot;/&gt;
+          &lt;include name=&quot;verificarCampoDescricaoNaoPreenchido&quot;/&gt;
+          &lt;include name=&quot;enviarRelatorioDeBug&quot;/&gt;
+          &lt;include name=&quot;uploadArquivo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- br.com.base2.automacaoTesteSelenium.tests.ReportissueTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Página de cadastro de Bugs do Mantis --&gt;
+  &lt;test name=&quot;Página de edição de Bugs do Mantis&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;editarReportIssue&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Página de edição de Bugs do Mantis --&gt;
+&lt;/suite&gt; &lt;!-- Suítes de teste do TestNG --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suítes_de_teste_do_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suítes de teste do TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Página de Login do Mantis (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Página de cadastro de Bugs do Mantis (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Página de edição de Bugs do Mantis (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suítes_de_teste_do_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suítes de teste do TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suítes_de_teste_do_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suítes de teste do TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suítes_de_teste_do_TestNG');
+function tableData_Suítes_de_teste_do_TestNG() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'editarReportIssue')
+data.setCell(0, 2, 'br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest')
+data.setCell(0, 3, 9154);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selecionarProjeto')
+data.setCell(1, 2, 'br.com.base2.automacaoTesteSelenium.tests.ReportissueTest')
+data.setCell(1, 3, 6469);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'enviarRelatorioDeBug')
+data.setCell(2, 2, 'br.com.base2.automacaoTesteSelenium.tests.ReportissueTest')
+data.setCell(2, 3, 4806);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verificaUsuarioESenhaEmBranco')
+data.setCell(3, 2, 'br.com.base2.automacaoTesteSelenium.tests.LoginTest')
+data.setCell(3, 3, 3708);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'uploadArquivo')
+data.setCell(4, 2, 'br.com.base2.automacaoTesteSelenium.tests.ReportissueTest')
+data.setCell(4, 3, 3622);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'efetuarLoginComSucesso')
+data.setCell(5, 2, 'br.com.base2.automacaoTesteSelenium.tests.LoginTest')
+data.setCell(5, 3, 1991);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verificarUsuarioInvalido')
+data.setCell(6, 2, 'br.com.base2.automacaoTesteSelenium.tests.LoginTest')
+data.setCell(6, 3, 1384);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verificarCampoDescricaoNaoPreenchido')
+data.setCell(7, 2, 'br.com.base2.automacaoTesteSelenium.tests.ReportissueTest')
+data.setCell(7, 3, 1378);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verificarSenhaInvalida')
+data.setCell(8, 2, 'br.com.base2.automacaoTesteSelenium.tests.LoginTest')
+data.setCell(8, 3, 1344);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verificarCampoSumarioNaoPreenchido')
+data.setCell(9, 2, 'br.com.base2.automacaoTesteSelenium.tests.ReportissueTest')
+data.setCell(9, 3, 1336);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'relatarBugCamposVazios')
+data.setCell(10, 2, 'br.com.base2.automacaoTesteSelenium.tests.ReportissueTest')
+data.setCell(10, 3, 1105);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'efetuarLogout')
+data.setCell(11, 2, 'br.com.base2.automacaoTesteSelenium.tests.LoginTest')
+data.setCell(11, 3, 788);
+window.suiteTableData['Suítes_de_teste_do_TestNG']= { tableData: data, tableDiv: 'times-div-Suítes_de_teste_do_TestNG'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-Suítes_de_teste_do_TestNG">
+              </div> <!-- times-div-Suítes_de_teste_do_TestNG -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suítes_de_teste_do_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suítes de teste do TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suítes_de_teste_do_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suítes_de_teste_do_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">br.com.base2.automacaoTesteSelenium.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verificaUsuarioESenhaEmBranco</span>
+                <span class="method-start">5238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificarUsuarioInvalido</span>
+                <span class="method-start">8949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificarSenhaInvalida</span>
+                <span class="method-start">10335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">efetuarLoginComSucesso</span>
+                <span class="method-start">11681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">efetuarLogout</span>
+                <span class="method-start">13676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTests</span>
+                <span class="method-start">14465 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">br.com.base2.automacaoTesteSelenium.tests.ReportissueTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">15658 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">selecionarProjeto</span>
+                <span class="method-start">19975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">relatarBugCamposVazios</span>
+                <span class="method-start">26446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificarCampoSumarioNaoPreenchido</span>
+                <span class="method-start">27554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificarCampoDescricaoNaoPreenchido</span>
+                <span class="method-start">28892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enviarRelatorioDeBug</span>
+                <span class="method-start">30272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">uploadArquivo</span>
+                <span class="method-start">35079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTests</span>
+                <span class="method-start">38703 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">br.com.base2.automacaoTesteSelenium.tests.EditarReportIssueTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39965 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">editarReportIssue</span>
+                <span class="method-start">44334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTests</span>
+                <span class="method-start">53490 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
